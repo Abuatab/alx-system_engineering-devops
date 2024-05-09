@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Listens on port 98 on localhost using nc with the -k flag for persistent listening.
+
+nc -l -k localhost 98
