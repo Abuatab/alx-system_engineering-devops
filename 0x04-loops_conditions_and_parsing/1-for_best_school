@@ -4,10 +4,5 @@
 var="Best School"
 for i in {1..10}
 do
-if [ "$i" -eq 10 ]
-then
-echo -n "$var"
-else
 echo "$var"
-fi
 done
