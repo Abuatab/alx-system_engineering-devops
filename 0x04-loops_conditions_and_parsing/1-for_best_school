@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-# shellcheck disable=SC2034
 
-var="Best School"
 for i in {1..10}
 do
-echo "$var"
+    if [ "$i" -eq 10 ]; then
+	echo -n "Best School"
+    else
+	echo "Best School"
+    fi
 done
